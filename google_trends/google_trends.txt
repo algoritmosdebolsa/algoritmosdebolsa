@@ -1,0 +1,1 @@
+En esta carpeta estarán alojadas todas las estrategias de trading con Google Trends.
