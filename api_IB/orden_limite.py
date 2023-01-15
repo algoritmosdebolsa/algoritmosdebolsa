@@ -61,6 +61,8 @@ def createOrder(action,totalQuantity,orderType,lmtPrice=False):
     order.orderType = orderType
     if orderType == 'LMT':
         order.lmtPrice = lmtPrice
+    order.eTradeOnly = False
+    order.firmQuoteOnly = False
     return order
 
 # Compramos 25000 libras
